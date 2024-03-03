@@ -9,7 +9,6 @@ import { Task } from "../types/task";
 
 export default function TaskTable({
   tasks,
-  userId,
 }: {
   tasks: Task[] | undefined;
   userId: number;
